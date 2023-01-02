@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F3F5FC;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #F3F5FC;
+    padding: 50px 0;
+}
+#logo-alura{
+    display: block;
+    margin: 0 400px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: auto;
+}
+.seccion1{
+    width: 70%;
+    background: #F3F5FC;
+}
+.text-area{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    resize: none;
+    font-size: 25px;
+    border: none;
+    background: #F3F5FC;
+    outline: none;
+    color: #0A3871;
+}
+#btn-encriptar{
+    padding: 14px;
+    width: 30%;
+    height: 10%;
+    border-color: #0A3871;
+    border-width: 1px;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+    color:#F3F5FC
+}
+#btn-desencriptar{
+    padding: 14px;
+    width: 30%;
+    height: 10%;
+    border-color: #0A3871;
+    border-width: 1px;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #D8DFE8;
+}
+#btn-encriptar:hover{
+    background: #D8DFE8;
+    color: #0A3871;
+}
+#btn-desencriptar:hover{
+    background: #0A3871;
+    color: #F3F5FC;
+}
+.seccion2{
+    height: 550px;
+    width: 30%;
+    background: white;
+    border-radius: 15px;
+    padding: auto;
+}
+.persona{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.subtitulo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.resultado{
+    width: 100%;
+    height: 10%;
+    text-align: center;  
+}
+.copiar{
+    text-align: center;
+}
+#btn-copiar{
+    padding: 14px;
+    width: 50%;
+    height: 10%;
+    border-color: #0A3871;
+    border-width: 1px;
+    border-radius: 18px;
+    background: #0A3871;
+    color:#F3F5FC
+}
+#btn-copiar:hover{
+    background: #D8DFE8;
+    color: #0A3871;
+}
+footer{
+    background: #0A3871;
+    color: #F3F5FC;
+    margin-top: 40px;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+}
+.footer{
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+}

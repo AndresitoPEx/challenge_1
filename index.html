@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de textos</title>
+</head>
+<body>
+    <header class="logo">
+        <img id="logo-alura" src="./img/logo.png" alt="logo">
+    </header>
+    <main class="main">
+        <section class="seccion1">
+            <textarea class="text-area" id="input-texto" placeholder="Ingresa tu texto"></textarea><br>
+            <button id="btn-encriptar" onclick="encriptar()">Encriptar</button>
+            <button id="btn-desencriptar" onclick="desencriptar()">Desencriptar</button>
+        </section>
+        <section class="seccion2"> 
+            <div class="imagen">
+                <img class="persona" src="./img/persona.png" alt="imagen">
+            </div>
+            <div class="subtitulo">
+                <h2 id="subtitulo">Ningun mensaje fue encontrado</h2>
+            </div>
+            <div class="resultado">
+                <h3>Mensaje encriptado</h3>
+                <p id="texto-resultado"></p>
+            </div>
+            <div class="copiar">
+                <button id="btn-copiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="footer">Sitio desarrollado por Jorge Andrés Romo Turco</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
